@@ -1,3 +1,10 @@
+## React Navbar
+### A simple navbar built using create-react-app
+### React Icons provides Font Awesome icons
+### Utilises useState for the navbar functionality
+### Clone the repo locally and run 'npm install' then 'npm start' to check it out!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
