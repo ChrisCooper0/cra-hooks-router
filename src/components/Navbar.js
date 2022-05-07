@@ -18,11 +18,11 @@ function Navbar() {
   return (
     <IconContext.Provider value={{ color: "#fff" }}>
       <div>
-        <div className="navbar">
-          <div className="navbar-container container">
-            <Link className="navbar-logo" to="/" onClick={closeMobileMenu}>
-              <FaReact className="navbar-icon" />
-              REACT SITE
+        <div className="nav">
+          <div className="nav-container">
+            <Link className="nav-logo" to="/" onClick={closeMobileMenu}>
+              <FaReact className="nav-icon" />
+              React
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -30,22 +30,22 @@ function Navbar() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  HOME
+                  Home
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  SERVICES
+                  About
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  PRODUCTS
+                  Services
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  CONTACT
+                  Contact
                 </Link>
               </li>
             </ul>
